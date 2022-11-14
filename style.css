@@ -1,0 +1,52 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121
+  font-family: "Raleway", sans-serif;
+}
+
+.logo {
+    color: #000;
+    font-size: 26;
+    font-weight: bold;
+    text-decoration: none;
+}
+.logo-web {
+    color:  #2196f3;
+}
+.link {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+
+.button-service {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #2196f3;
+  color: #fff;
+  height: 50;
+  width: 200;
+  border-radius: 4px;
+}
+
+.button {
+  background-color: #f5f4fa;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.list {
+    list-style-type: none;
+}
