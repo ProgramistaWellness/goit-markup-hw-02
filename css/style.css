@@ -1,77 +1,84 @@
+:root {
+  --brand-background: #2f303a;
+  --brand-color1: #2196f3;
+  --brand-color2: #000000;
+  --brand-colorAccent: #ffffff;
+  --paragraph-color: #757575;
+  --topmargin: 94px;
+}
+
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #212121;
+  letter-spacing: 0.03em;
+  line-height: 1;
   width: 1600px;
 }
 
 .logo {
-  color: #000;
+  color: var(--brand-color2);
   font-size: 26px;
   font-weight: 700;
   text-decoration: none;
 }
 
 .logo-footer {
-  color: #fff;
+  color: var(--brand-colorAccent);
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.9375em;
-  letter-spacing: 0.03em;
+  line-height: 2;
   text-decoration: none;
 }
 
 .logo-web {
-  color: #2196f3;
+  color: var(--brand-color1);
 }
 .link-header {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1em;
   letter-spacing: 0.02em;
   text-decoration: none;
+  color: inherit;
 }
 
 .link-header:hover,
 .link-header:focus {
-  color: #2196f3;
+  color: var(--brand-color1);
 }
 
 .link-footer {
   color: #fff;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1em;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
 
-.button-service {
-  font-size: 16px;
+.box-service {
   font-weight: 700;
-  background-color: #2196f3;
-  color: #fff;
+  background-color: var(--brand-color1);
+  color: var(--brand-colorAccent);
   height: 50px;
   width: 200px;
   border-radius: 4px;
   margin-top: 30px;
   margin-left: 700px;
+  cursor: pointer;
 }
 
-.button {
+.box-push {
   background-color: #f5f4fa;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62em;
+  line-height: 1.5;
   text-align: center;
-  letter-spacing: 0.03em;
-  cursor: pointer;
   border-radius: 4px;
+  cursor: pointer;
 }
 
-.button:hover,
-.button:focus {
-  background-color: #2196f3;
-  color: #fff;
+.box-push:hover,
+.box-push:focus {
+  background-color: var(--brand-color1);
+  color: var(--brand-colorAccent);
 }
 
 .list-horizontal {
@@ -88,113 +95,96 @@ body {
 }
 
 .background-header {
-  width: 1600px;
   height: 600px;
   margin-left: 0px;
   margin-top: 0px;
-  background: #2f303a;
+  background: var(--brand-background);
 }
 .header-one {
   width: 696px;
   height: 120px;
   margin-left: 452px;
-  margin-top: 280px;
+  margin-top: 200px;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36em;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--brand-colorAccent);
 }
 
-.section-hero {
+.wraper-hero {
   width: 1170px;
   height: 101px;
-  left: 215px;
-  top: 94px;
+  margin-left: 215px;
+  margin-top: var(--topmargin);
 }
 
-.section-header {
-  width: 1600px;
+.wraper-header {
   height: 80px;
   margin-left: 0px;
   margin-top: 0px;
 }
 
-.section-footer {
-  background-color: #2f303a;
-  color: #fff;
-  width: 1600px;
+.wraper-footer {
+  background-color: var(--brand-background);
+  color: var(--brand-colorAccent);
   height: 252px;
   margin-left: 0px;
-  margin-top: 94px;
+  margin-top: var(--topmargin);
 }
 
-.section-about {
+.wraper-about {
   width: 1170px;
   height: 386px;
   margin-left: 215px;
-  margin-top: 94px;
+  margin-top: var(--topmargin);
 }
 
-.section-team {
-  width: 1600px;
+.wraper-team {
   height: 648px;
-  left: 0px;
-  top: 94px;
+  margin-left: 0px;
+  margin-top: var(--topmargin);
 }
 
-.section-portfolio {
+.wraper-portfolio {
   width: 1170px;
   height: 1360px;
   margin-left: 215px;
-  margin-top: 94px;
+  margin-top: var(--topmargin);
 }
 
 .header-two {
   font-weight: 700;
   font-size: 36px;
-  line-height: 2.625em;
+  line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .header-three-hero {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1em;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
 }
 
 .header-three-team {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.1875em;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
 }
 
 .paragraph-hero {
   width: 270px;
   height: 75px;
   margin-top: 10px;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.71em;
-  letter-spacing: 0.03em;
-  color: #757575;
+  line-height: 1.5;
+  color: var(--paragraph-color);
 }
 .paragraph-team {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.1875em;
+  line-height: 1.5;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--paragraph-color);
 }
 
 .box-portfolio {
@@ -205,14 +195,10 @@ body {
 .header-three-portfolio {
   font-weight: 700;
   font-size: 18px;
-  line-height: 2.25;
   letter-spacing: 0.06em;
 }
 
 .paragraph-portfolio {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.88em;
-  letter-spacing: 0.03em;
-  color: #757575;
+  line-height: 1.5;
+  color: var(--paragraph-color);
 }
