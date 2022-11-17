@@ -3,7 +3,9 @@
   --brand-color1: #2196f3;
   --brand-color2: #000000;
   --brand-colorAccent: #ffffff;
+  --button-background: #f5f4fa;
   --paragraph-color: #757575;
+  --link-footercolor: #fff;
   --topmargin: 94px;
 }
 
@@ -47,7 +49,7 @@ body {
 }
 
 .link-footer {
-  color: #fff;
+  color: var(--link-footercolor);
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
@@ -67,7 +69,7 @@ body {
 }
 
 .box-push {
-  background-color: #f5f4fa;
+  background-color: var(--button-background);
   font-weight: 500;
   line-height: 1.5;
   text-align: center;
@@ -162,7 +164,7 @@ body {
   text-align: center;
 }
 
-.header-three-hero {
+.wraper-hero h3 {
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
@@ -173,7 +175,7 @@ body {
   text-align: center;
 }
 
-.paragraph-hero {
+.wraper-hero p {
   width: 270px;
   height: 75px;
   margin-top: 10px;
