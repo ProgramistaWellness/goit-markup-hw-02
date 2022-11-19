@@ -3,16 +3,21 @@
   --brand-color1: #2196f3;
   --brand-color2: #000000;
   --brand-colorAccent: #ffffff;
+  --menu-color: #212121;
   --button-background: #f5f4fa;
   --paragraph-color: #757575;
   --link-footercolor: #fff;
   --topmargin: 94px;
+  --spacing-02: 0, 02em;
+  --spacing-03: 0, 03em;
+  --weight700: 700;
+  --weight500: 500;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #212121;
-  letter-spacing: 0.03em;
+  color: var(--menu-color);
+  letter-spacing: var(--spacing-03);
   line-height: 1;
   width: 1600px;
 }
@@ -20,13 +25,13 @@ body {
 .logo {
   color: var(--brand-color2);
   font-size: 26px;
-  font-weight: 700;
+  font-weight: var(--weight700);
   text-decoration: none;
 }
 
 .logo-footer {
   color: var(--brand-colorAccent);
-  font-weight: 700;
+  font-weight: var(--weight700);
   font-size: 26px;
   line-height: 2;
   text-decoration: none;
@@ -36,9 +41,9 @@ body {
   color: var(--brand-color1);
 }
 .link-header {
-  font-weight: 500;
+  font-weight: var(--weight500);
   font-size: 14px;
-  letter-spacing: 0.02em;
+  letter-spacing: var(--spacing-02);
   text-decoration: none;
   color: inherit;
 }
@@ -50,14 +55,19 @@ body {
 
 .link-footer {
   color: var(--link-footercolor);
-  font-weight: 500;
+  font-weight: var(--weight500);
   font-size: 14px;
-  letter-spacing: 0.02em;
+  letter-spacing: var(--spacing-02);
   text-decoration: none;
 }
 
+.link-footer:hover,
+.link-footer:focus {
+  color: var(--brand-color1);
+}
+
 .box-service {
-  font-weight: 700;
+  font-weight: var(--weight700);
   background-color: var(--brand-color1);
   color: var(--brand-colorAccent);
   height: 50px;
@@ -70,7 +80,7 @@ body {
 
 .box-push {
   background-color: var(--button-background);
-  font-weight: 500;
+  font-weight: var(--weight500);
   line-height: 1.5;
   text-align: center;
   border-radius: 4px;
@@ -158,20 +168,20 @@ body {
 }
 
 .header-two {
-  font-weight: 700;
+  font-weight: var(--weight700);
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
 }
 
 .wraper-hero h3 {
-  font-weight: 700;
+  font-weight: var(--weight700);
   font-size: 14px;
   text-transform: uppercase;
 }
 
 .header-three-team {
-  font-weight: 500;
+  font-weight: var(--weight500);
   text-align: center;
 }
 
@@ -195,7 +205,7 @@ body {
 }
 
 .header-three-portfolio {
-  font-weight: 700;
+  font-weight: var(--weight700);
   font-size: 18px;
   letter-spacing: 0.06em;
 }
