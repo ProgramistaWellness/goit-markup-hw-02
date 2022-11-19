@@ -97,6 +97,7 @@ body {
 .list-horizontal {
   list-style-type: none;
   overflow: hidden;
+  display: inline-block;
 }
 
 .element-left {
@@ -155,8 +156,8 @@ body {
 }
 
 .wraper-portfolio {
-  width: 1170px;
-  margin-left: 215px;
+  width: 1500px;
+  margin-left: auto;
   margin-top: var(--topmargin);
 }
 
