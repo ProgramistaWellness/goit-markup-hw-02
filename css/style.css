@@ -7,35 +7,28 @@
   --button-background: #f5f4fa;
   --paragraph-color: #757575;
   --link-footercolor: #fff;
-  --topmargin: 94px;
-  --spacing-02: 0, 02em;
-  --spacing-03: 0, 03em;
-  --font14: 14px;
-  --font26: 26px;
-  --weight700: 700;
-  --weight500: 500;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   color: var(--menu-color);
-  letter-spacing: var(--spacing-03);
+  letter-spacing: 0.03em;
   line-height: 1;
-  font-size: var(--font14);
+  font-size: 14px;
   width: 1600px;
 }
 
 .logo {
   color: var(--brand-color2);
-  font-size: var(--font26);
-  font-weight: var(--weight700);
+  font-size: 26px;
+  font-weight: 700;
   text-decoration: none;
 }
 
 .logo-footer {
   color: var(--brand-colorAccent);
-  font-weight: var(--weight700);
-  font-size: var(--font26);
+  font-weight: 700;
+  font-size: 26px;
   line-height: 2;
   text-decoration: none;
 }
@@ -44,8 +37,8 @@ body {
   color: var(--brand-color1);
 }
 .link-header {
-  font-weight: var(--weight500);
-  letter-spacing: var(--spacing-02);
+  font-weight: 500;
+  letter-spacing: 0.02em;
   text-decoration: none;
   color: inherit;
 }
@@ -57,8 +50,8 @@ body {
 
 .link-footer {
   color: var(--link-footercolor);
-  font-weight: var(--weight500);
-  letter-spacing: var(--spacing-02);
+  font-weight: 500;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
@@ -68,7 +61,7 @@ body {
 }
 
 .box-service {
-  font-weight: var(--weight700);
+  font-weight: 700;
   background-color: var(--brand-color1);
   color: var(--brand-colorAccent);
   height: 50px;
@@ -81,7 +74,7 @@ body {
 
 .box-push {
   background-color: var(--button-background);
-  font-weight: var(--weight500);
+  font-weight: 500;
   line-height: 1.5;
   text-align: center;
   border-radius: 4px;
@@ -129,7 +122,6 @@ body {
 .wraper-hero {
   width: 1170px;
   margin-left: 215px;
-  margin-top: var(--topmargin);
 }
 
 .wraper-header {
@@ -141,40 +133,36 @@ body {
   background-color: var(--brand-background);
   color: var(--brand-colorAccent);
   margin-left: 0px;
-  margin-top: var(--topmargin);
 }
 
 .wraper-about {
   width: 1170px;
   margin-left: 215px;
-  margin-top: var(--topmargin);
 }
 
 .wraper-team {
   margin-left: 0px;
-  margin-top: var(--topmargin);
 }
 
 .wraper-portfolio {
   width: 1500px;
   margin-left: auto;
-  margin-top: var(--topmargin);
 }
 
 .header-two {
-  font-weight: var(--weight700);
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
 }
 
 .wraper-hero h3 {
-  font-weight: var(--weight700);
+  font-weight: 700;
   text-transform: uppercase;
 }
 
 .header-three-team {
-  font-weight: var(--weight500);
+  font-weight: 500;
   text-align: center;
 }
 
@@ -195,7 +183,7 @@ body {
 }
 
 .header-three-portfolio {
-  font-weight: var(--weight700);
+  font-weight: 700;
   font-size: 18px;
   letter-spacing: 0.06em;
 }
